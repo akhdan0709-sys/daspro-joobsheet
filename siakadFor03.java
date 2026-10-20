@@ -8,7 +8,7 @@ public class siakadFor03{
     for (int i = 1; i <= 10; i++){
         System.out.print("Masukan Nilai Mahasiswa ke-" +i +":");
         nilai = Sc.nextDouble();
-        if (nilai > tertinggi){
+        if (nilai > tertinggi){ 
             tertinggi = nilai;
         } 
         if (nilai < terendah){
